@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.advanced-touchpad-gestures" 
+            path="/org/gnome/shell/extensions/advanced-touchpad-gestures/">
+        
+        <!-- General Settings -->
+        <key name="intercept-gestures" type="b">
+            <default>true</default>
+            <summary>Intercept gesture events</summary>
+            <description>Whether to intercept and handle gesture events</description>
+        </key>
+
+        <!-- Three-finger swipe gestures -->
+        <key name="three-finger-swipe-left" type="s">
+            <default>'workspace-left'</default>
+            <summary>3-finger swipe left action</summary>
+        </key>
+        <key name="three-finger-swipe-right" type="s">
+            <default>'workspace-right'</default>
+            <summary>3-finger swipe right action</summary>
+        </key>
+        <key name="three-finger-swipe-up" type="s">
+            <default>'toggle-overview'</default>
+            <summary>3-finger swipe up action</summary>
+        </key>
+        <key name="three-finger-swipe-down" type="s">
+            <default>'none'</default>
+            <summary>3-finger swipe down action</summary>
+        </key>
+
+        <!-- Four-finger swipe gestures -->
+        <key name="four-finger-swipe-left" type="s">
+            <default>'none'</default>
+            <summary>4-finger swipe left action</summary>
+        </key>
+        <key name="four-finger-swipe-right" type="s">
+            <default>'none'</default>
+            <summary>4-finger swipe right action</summary>
+        </key>
+        <key name="four-finger-swipe-up" type="s">
+            <default>'none'</default>
+            <summary>4-finger swipe up action</summary>
+        </key>
+        <key name="four-finger-swipe-down" type="s">
+            <default>'none'</default>
+            <summary>4-finger swipe down action</summary>
+        </key>
+
+        <!-- Tap gestures -->
+        <key name="three-finger-tap" type="s">
+            <default>'none'</default>
+            <summary>3-finger tap action</summary>
+        </key>
+        <key name="four-finger-tap" type="s">
+            <default>'none'</default>
+            <summary>4-finger tap action</summary>
+        </key>
+
+        <!-- Custom commands -->
+        <key name="custom-commands" type="as">
+            <default>[]</default>
+            <summary>List of custom commands</summary>
+        </key>
+    </schema>
+</schemalist>
