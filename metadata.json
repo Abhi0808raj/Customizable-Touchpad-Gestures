@@ -1,10 +1,10 @@
 {
-    "name": "Advanced Touchpad Gestures",
+    "name": "Customizable Touchpad Gestures",
     "description": "Customizable 3-finger and 4-finger touchpad gestures for Wayland",
-    "uuid": "advanced-touchpad-gestures@wayland.com",
+    "uuid": "customizable-touchpad-gestures@wayland.com",
     "shell-version": ["45", "46", "47", "48"],
     "version": 1.0,
-    "url": "https://github.com/your-username/advanced-touchpad-gestures",
-    "settings-schema": "org.gnome.shell.extensions.advanced-touchpad-gestures",
-    "gettext-domain": "advanced-touchpad-gestures"
+    "url": "https://github.com/Abhi0808raj/Customizable-Touchpad-Gestures",
+    "settings-schema": "org.gnome.shell.extensions.customizable-touchpad-gestures",
+    "gettext-domain": "customizable-touchpad-gestures"
 }
